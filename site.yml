@@ -1,0 +1,21 @@
+---
+- hosts: servers
+  become: yes
+  vers_files:
+    - ./vars/main.yml
+  roles:  
+#    - chrony
+#    - nginx
+#    - apache
+#    - ansible
+#    - redmine
+#    - growi
+#    - nextcloud
+#    - hugo
+#    - cron
+#    - firewalld
+#    - selinux
+#    - elk
+#    - zabbix
+#    - timezone
+#    - repository
