@@ -1,0 +1,12 @@
+---
+- name: start httpd
+  systemd:
+    name: httpd
+    state: started
+    enabled: yes
+
+- name: restart httpd
+  systemd: 
+    name: httpd
+    state: restarted
+    enabled: yes
