@@ -6,7 +6,7 @@
   roles:  
 #    - chrony
 #    - nginx
-    - apache
+#    - apache
 #    - ansible
 #    - redmine
 #    - growi
@@ -18,4 +18,4 @@
 #    - elk
 #    - zabbix
 #    - timezone
-#    - repository
+    - repository
