@@ -1,0 +1,15 @@
+---
+
+- name: install php72
+  yum: 
+    name: "{{ item }}"
+    state: present
+    enablerepo: remi
+  with_items:
+    - php
+    - php-xml
+    - php-gd
+    - php-mysql
+    - php-mbstring
+    - php-pdo
+    - php-xmlrpc

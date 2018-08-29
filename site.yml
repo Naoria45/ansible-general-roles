@@ -18,4 +18,5 @@
 #    - elk
 #    - zabbix
 #    - timezone
-    - repository
+#    - repository
+    - php7
